@@ -1,0 +1,111 @@
+body{
+	font:12px/1.62 Helvetica,Arial,sans-serif;
+	position:relative;
+	overflow: auto;
+	background: #f8f8f8;
+}
+input{
+	outline: none;
+}
+textarea{
+	outline: none;
+}
+
+textarea:focus{
+	border: 1px solid #333;
+}
+.wrap{
+	position:relative;
+    width: 945px;
+    margin: 0px auto;
+}
+.tit{
+	position:absolute;
+	top: 50px;
+	left: 0px;
+	background-color: #333333;
+	width:945px;
+	height:50px;
+	text-align: center;
+	color:white;
+	line-height:50px;
+	font-size: 20px;
+	border-radius: 10px;	
+}
+.add {
+	position:relative;
+	width: 945px;
+	height: 150px;
+	margin: 0px auto;
+	top: 140px;
+}
+.add .content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 940px;
+	border-radius: 15px;
+}
+.add .user{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	border: 1px solid #999;
+	border-radius: 5px;
+
+}
+.add .user:focus{
+	border: 1px solid #333;
+}
+.add .btn{
+	position: absolute;
+	top: 100px;
+	right: 5px;
+	background:#ccc;
+	padding: 3px 8px;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.ms{
+	position: absolute;
+	width: 970px;
+	top: 300px;
+	margin: 0px auto;
+}
+.msg{
+	position: relative;
+	float: left;
+	margin:0px 20px 20px 0px;
+	width:300px;
+	height:200px;
+	box-shadow: darkgrey 10px 10px 30px 5px;
+	background: #fff;
+}
+.msg .user{
+	position: absolute;
+	width:180px;
+	height: 20px;
+	top: 15px;
+	padding-left:30px;
+	float:left;
+	font-weight: 600;
+}
+.msg .time{
+	position: absolute;
+	top: 160px;
+	right: 30px;
+	color: #333;
+	font-size: 14px;
+	font-style: oblique;
+}
+.msg .content{
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	font-family:"微软雅黑","黑体","宋体";
+    font-size:12px;
+	text-indent: 2em; 
+	width:240px; 
+	height:100px;
+	overflow: hidden;
+}
